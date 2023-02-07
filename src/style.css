@@ -1,0 +1,106 @@
+body{
+    background-image: url(/images/bg-main-desktop.png);
+    background-position:left ;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+@media (max-width:400px) {
+    body{
+        background-image: url(/images/bg-main-mobile.png);
+        background-position: top;
+        max-width: 1000px;
+    }
+    .bg-card-front-shows-on-mobile{
+        max-width: 250px;
+        margin-top: -50px;
+        margin-left: 70px;
+    }
+    .bg-card-back-shows-on-mobile{
+        max-width: 250px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    .attribution{
+        margin-top: 0px;
+    }
+}
+.back-card-number-mobile{
+    position: absolute;
+    top: 105px;
+    left: 270px;
+}
+.image-on-mobile{
+    position: absolute;
+    top:145px ;
+    left: 80px;
+}
+.front-text-on-mobile{
+    position: absolute;
+    top: 200px;
+    font-size: 10px;
+    left:80px ;
+}
+.card-name{
+    position: absolute;
+    font-size: 15px;
+    font-weight:100;
+    top: 30px;
+    left:10px ;
+}
+
+.bg-card-front{
+    max-width: 300px;
+    margin-top: 110px;
+    margin-left: 250px;
+}
+.bg-card-back{
+    max-width: 300px;
+    margin-top:10px;
+    margin-left: 300px;
+}
+.front-text-on-desktop {
+    position: absolute;
+    top: 190px;
+    left: 255px;
+}
+.number-on-back-card-desktop{
+    position: absolute;
+    top: 350px;
+    left:500px ;
+}
+.image-on-desktop{
+    margin-top: -330px;
+    margin-left: 270px;
+}
+.card-details{
+    margin-top: 0px;
+}
+.form-on-desktop{
+    position: absolute;
+    left: 900px;
+    top: 50px;
+}
+.form-on-mobile{
+    text-align: center;
+    color: #39043D;
+    margin-top:50px ;
+}
+.button{
+    background: #39043D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: #39043D;
+    box-shadow: 24px 23px 27px rgba(0, 0, 0, 0.3);
+}
+.button:hover{
+    background: #47034b;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-top: 400px;
+    color: #ADB5BE;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
