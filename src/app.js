@@ -9,7 +9,7 @@ const yearInp = document.getElementById("cards-year");
 const cardCvc = document.getElementById("cvc");
 const cvcInp = document.getElementById("card-cvc");
 const submitBtn = document.getElementById("submit-btn");
-const compeleted = document.querySelector("thankyou-message");
+const completed = document.querySelector(".thankyou");
 const form = document.querySelector("form");
 
 function setCardNumber(e) {
@@ -75,8 +75,8 @@ function handleSubmit(e) {
       cvcInp.value &&
       numberInp.value.length == 16
     ) {
-      compeleted.classList.remove("completed");
-      form.classList.add("completed");
+      completed.classList.remove("hidden");
+      form.classList.add("hidden");
     }
   
 }

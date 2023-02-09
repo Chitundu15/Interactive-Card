@@ -16,7 +16,7 @@
 body{
     min-height: 100vh;
 }
-.thankyou-message{
+.hidden{
     display: none !important;
 }
 .container{
@@ -176,7 +176,7 @@ form button{
     background: var(--Very-dark-violet);
     cursor: pointer;
 }
-.thankyou-message{
+.thankyou{
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -184,15 +184,15 @@ form button{
     justify-content: center;
     gap: 2rem;
 }
-.thankyou-message h1{
+.thankyou h1{
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-.thankyou-message p{
+.thankyou p{
     font-size: 18px;
     color: var(--Dark-grayish-violet);
 }
-.thankyou-message button{
+.thankyou button{
     color: var(--White);
     width: 100%;
     border-radius: 6px;
